@@ -224,6 +224,7 @@
       "integrations": "{{integrations}}",
       "connections": "{{connections}}",
       "customizations": "{{customizations}}",
+      "data": "{{data}}",
       "settings": "Settings"
     },
     "links": {
@@ -369,6 +370,7 @@
       "connections": "{{connection}}s",
       "configuration-required": "Configuration Required",
       "customizations": "Customizations",
+      "data": "Data",
       "step": "Step",
       "steps": "{{step}}s",
       "connector": "Connector",

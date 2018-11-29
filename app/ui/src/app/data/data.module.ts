@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DataservicesModule } from 'beetle-lib';
+import { DataservicesModule } from '@teiid/beetle-lib';
 import { VirtualizationsComponent } from './virtualizations/virtualizations.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'data',
-    component: VirtualizationsComponent
+    path: '',
+    component: VirtualizationsComponent,
+    pathMatch: 'full'
   } ];
 
 @NgModule({

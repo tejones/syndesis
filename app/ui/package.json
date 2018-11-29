@@ -83,7 +83,9 @@
     "yamljs": "^0.3.0",
     "zone.js": "^0.8.26",
     "angular-tree-component": "^7.1.0",
-    "beetle-lib": "0.0.1",
+    "d3": "^5.5.0",
+    "lodash": "^4.17.10",
+    "@teiid/beetle-lib": "0.0.2",
     "vkbeautify": "^0.99.3",
     "webcola": "^3.3.8",
     "x2js": "^3.2.1"

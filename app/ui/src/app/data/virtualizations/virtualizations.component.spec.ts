@@ -1,5 +1,6 @@
+import { RouterTestingModule } from '@angular/router/testing';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { DataservicesModule } from '@teiid/beetle-lib';
+import { DataservicesModule, ConnectionsModule } from '@teiid/beetle-lib';
 import { VirtualizationsComponent } from './virtualizations.component';
 
 describe('VirtualizationsComponent', () => {
@@ -8,7 +9,10 @@ describe('VirtualizationsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [ DataservicesModule ],
+      imports: [ DataservicesModule,
+      ConnectionsModule,
+      RouterTestingModule.withRoutes([])
+     ],
       declarations: [ VirtualizationsComponent ]
     })
     .compileComponents();
